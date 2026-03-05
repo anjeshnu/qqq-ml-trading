@@ -178,7 +178,7 @@ qqq-ml-trading/
 │   └── processed/
 │       └── combined_dataset_patched.csv ← Feature-engineered dataset
 │
-├── qqq_svm_trading_strategy.ipynb   ← Main analysis report
+├── qqq_svm_trading_strategy.ipynb   ← Main analysis notebook
 │
 └── images/                              ← Chart outputs 
 ```
