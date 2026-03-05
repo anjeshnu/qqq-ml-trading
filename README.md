@@ -163,8 +163,8 @@ qqq-ml-trading/
 ├── requirements.txt
 ├── .gitignore
 │
-├── notebooks/
-│   └── qqq_svm_trading_strategy.ipynb   ← Main analysis notebook
+├── Report/
+│   └── Trivedi.html   ← Main analysis report
 │
 ├── data/
 │   ├── raw/                             ← Source OHLCV files (2005–2025)
@@ -178,7 +178,9 @@ qqq-ml-trading/
 │   └── processed/
 │       └── combined_dataset_patched.csv ← Feature-engineered dataset
 │
-└── images/                              ← Chart outputs (populated on run)
+├── qqq_svm_trading_strategy.ipynb   ← Main analysis report
+│
+└── images/                              ← Chart outputs 
 ```
 
 ---
@@ -205,7 +207,7 @@ The processed dataset (`combined_dataset_patched.csv`) contains all engineered f
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/qqq-ml-trading.git
+git clone https://github.com/anjeshnu/qqq-ml-trading.git
 cd qqq-ml-trading
 ```
 
@@ -218,7 +220,7 @@ pip install -r requirements.txt
 ### 3. Run the notebook
 
 ```bash
-jupyter notebook notebooks/qqq_svm_trading_strategy.ipynb
+jupyter notebook qqq_svm_trading_strategy.ipynb
 ```
 
 The notebook is fully self-contained and runs end-to-end:
@@ -261,4 +263,4 @@ See `requirements.txt` for pinned versions.
 
 ---
 
-*This project was completed as part of the Certificate in Quantitative Finance (CQF) programme, Module 4.*
+*This project was completed as part of the Certificate in Quantitative Finance (CQF) programme.*
